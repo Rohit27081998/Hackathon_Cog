@@ -33,7 +33,7 @@ class Test {
 			Object1.put("sampletransaction", finalObject);
 			finalarray.add(Object1);
 			System.out.println(finalarray);
-			FileWriter file = new FileWriter("CPUoutput.json");
+			FileWriter file = new FileWriter("CPUoutput1.json");
 			file.write(finalarray.toJSONString());
 			file.close();
 			fr.close();
